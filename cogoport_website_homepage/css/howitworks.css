@@ -1,0 +1,143 @@
+.how-it-works{
+    width: 1200px;
+    margin:auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.how-it-works-0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.how-it-works-heading{
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 1em;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 700;
+}
+
+.how-it-works-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.how-it-works-buttons-1,
+.how-it-works-buttons-2{
+    width: 200px;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    min-width: 72px;
+    height: 36px;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center; 
+    border-style: none; 
+}
+
+.how-it-works-buttons-1{
+    background-color: #fbdc00;
+    border-color: #fbdc00;
+}
+
+.how-it-works-buttons-2{
+    background-color: #e5dfdf;
+    border-color: #e5dfdf;
+}
+
+.how-it-works-button-inside{
+   color:#000;
+   
+   font-family: 'PT Sans', sans-serif;
+   font-weight: 700;
+}
+
+.how-it-works-body{
+    position: relative;
+    display: flex;
+}
+
+.how-it-works-card,
+.how-it-works-card-1{
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(169,188,218,.65);
+    box-sizing: border-box;
+}
+.how-it-works-card{
+    margin-bottom: 120px;
+}
+
+.how-it-works-card-stage{
+    font-weight: 600;
+    color: #ee3425;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+}
+
+.how-it-works-card-heading{
+    display: flex;
+    align-items: center;
+    padding: 0 0 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.how-it-works-card-heading-1{
+    padding-left: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.how-it-works-card-para{
+    display: flex;
+}
+
+.how-it-works-card-para-1{
+    padding-bottom: 5px;
+    padding-left: 8px;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.how-it-works-arrow{
+    top: 104px;
+    left: 300px;
+    position: absolute;
+}
+
+.how-it-works-arrow-1{
+    bottom: 116px;
+    left: 300px;
+    position: absolute;
+}
+
+.how-it-works-laptop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-it-works-arrow-2{
+    top: 104px;
+    right: 300px;
+    position: absolute;
+}
+
+.how-it-works-arrow-3{
+    bottom: 116px;
+    right: 300px;
+    position: absolute;
+}

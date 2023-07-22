@@ -1,0 +1,121 @@
+.header{
+    position: sticky;
+    top: 0;
+    left:0;
+    z-index:9999;
+    padding: 8px 16px;
+    background-color: rgb(251, 220, 0);
+    display: flex;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+    box-sizing:border-box;
+}
+
+
+.left-header{
+    display: flex;
+    margin-left: auto;
+    cursor: pointer;
+    align-self: center;
+}
+
+.middle-header{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+    margin-left: 33.587px;
+    margin-right: 33.587px;
+    padding-left: 40px;
+    margin: auto;
+    align-self: center;
+}
+
+.right-header{
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-right: auto;
+}
+
+.cogoport-symbol{
+    height: 36px;
+    width: 120px;
+    align-self: center;
+}
+
+.login{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight:500;
+    color: #000;
+    margin-left:5px ;
+}
+
+.signup{
+    background-color: #ee3425;
+    color:#fff;
+    height: 36px;
+    padding: 4px 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 0;
+}
+
+.left-rheader{
+    margin-right: 16px;   
+    height:22px;
+    display: flex;
+    flex-direction: row;
+}
+
+.heading{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color:#000;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    padding-left: 1em;
+}
+
+.down{
+    margin-left: 4px;
+    width: 8px;
+    height: 8px;
+    align-self: center;
+}
+
+.left-header-0{
+    display: none;
+}
+
+@media screen and (max-width: 767px){
+    .middle-header{
+        display: none;
+    }
+
+    .right-header{
+        display: none;
+        margin-right:0;
+    }
+
+    .left-header-0{
+        display: flex;
+        margin-right: 16px;
+    }
+    
+    .left-header{
+        margin-left: 0;
+    }
+    
+}

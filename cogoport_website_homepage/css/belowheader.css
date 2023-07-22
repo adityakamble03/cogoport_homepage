@@ -1,0 +1,145 @@
+.below-header-0{
+    margin-top: -57px;
+    padding-top: 57px;
+    height: 392px;
+    width: 100%;
+    background: url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp);
+    background-size: 100%;
+    background-position: bottom;
+    background-color: #fbdc00;
+}
+
+.below-header{
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    padding: 16px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.whatsapp{
+    flex: 1 1;
+    box-sizing: border-box;
+}
+
+.first-line{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+.second-line{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(67, 67, 67) ;
+}
+
+.third-line{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+
+.fourth-line{
+    width: 387px;
+    height: 41px;
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0;
+}
+
+.left-part-fourth-line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    height: 24px;
+}
+
+.country-code{
+    padding-left: 7px;
+}
+
+.middle-part-fourth-line{
+    display: flex;
+    padding-right: 16px;
+}
+
+.whatsapp-number{
+    height: 37.4px;
+    border-style: none;
+    display: flex;
+}
+
+.get-started{
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight:700;
+    color:rgb(255, 255, 255);
+    background-color: rgb(54, 187, 34);
+    border-width: 0.8px;
+    border-color: rgb(54, 187, 34);
+    height:24px;
+    width: 90px;
+    border-radius: 12px;
+    border-style: solid;
+}
+
+.video{
+    display: flex;
+    flex: 1 1;
+    width: 595px;
+    height: 400px;
+    margin-bottom: -39px;
+    box-sizing: border-box;
+}
+
+.video-1{
+    display: none;
+    flex: 1 1;
+    width: 595px;
+    height: 400px;
+}
+
+@media screen and (max-width: 767px) {
+    .below-header-0{
+        width: 100%;
+        background-size: initial;
+        height: 552px;
+    }   
+
+    .below-header{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 552px;
+        width: 100%;
+    }
+
+    .first-line{
+        font-size: 24px;
+    }
+
+    .video{
+        display: none;
+        width: 100%;
+    }
+
+    .video-1{
+        display: flex;
+        width: 100%;
+    }
+}

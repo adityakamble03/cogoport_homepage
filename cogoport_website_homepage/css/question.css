@@ -1,0 +1,69 @@
+.question{
+    margin-bottom: 50px;
+    background-color: rgb(251, 220, 0);
+    box-sizing: border-box;
+}
+
+.question-1{
+    width:1200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.left-question-1{
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.left-question-2{
+    font-family: 'Ubuntu', sans-serif ;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.get-button-0{
+    height:36px;
+    background-color: rgb(238, 52, 37);
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    color:white;
+    font-size: 14px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: rgb(238, 52, 37);
+    min-width: 72px;
+    padding: 4px 16px;
+    box-sizing: border-box;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .question{
+        margin-bottom: 32px;
+    }
+
+    .question-1{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left-question-1{
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .left-question-2{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+}

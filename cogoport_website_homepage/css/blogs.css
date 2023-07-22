@@ -1,0 +1,87 @@
+.blogs-0{
+    padding: 16px;
+    width: 1168px;
+    margin: auto;
+    height: 581.8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.blogs-heading{
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.2; 
+    margin-top: 0; 
+    font-family: 'Ubuntu', sans-serif; 
+    color:black;
+}
+
+.blogs-1{
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.blogs-cards{
+    width:375.987px;
+    height: 444.2px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    overflow: hidden;
+    text-align: start;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px hsla(0,0%,79%,.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.blogs-cards-0{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 16px;
+}
+
+.blogs-cards-about{
+    margin-top: 0;
+    max-height: calc(1.4rem * 3);
+    overflow: hidden;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 24px;
+}
+
+.blogs-cards-last-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blogs-cards-read-more{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: rgb(238, 52, 37);
+    cursor: pointer;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.blogs-view{
+    border-width: 0.8px;
+    font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    width: 48.688px;
+    height: 24px;
+    padding: 8px 42px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(238, 52, 37);
+    border-radius: 4px;
+}

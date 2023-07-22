@@ -1,0 +1,64 @@
+.plan-book{
+    margin-bottom: 50px;
+    height: 392px;
+}
+
+.plan-book-0{
+    width: 1000px;
+    height: 360px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.plan-book-left{
+    
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+}
+
+.plan-book-left-1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 10px;
+}
+
+.plan-book-left-2{
+    font-family: 'PT Sans',sans-serif;
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+
+.plan-book-left-3{
+    font-family: 'PT Sans',sans-serif;
+    font-size: 14px;
+}
+
+.plan-book-left-4{
+    font-family: 'PT Sans', sans-serif;
+    display: inline-block;
+    width: 68.125px;
+    height: 24px;
+    padding: 8px 42px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(238, 52, 37);
+    border-radius: 8px;
+}
+.plan-book-right{
+    display: flex;
+}

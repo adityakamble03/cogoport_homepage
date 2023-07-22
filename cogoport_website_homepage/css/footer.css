@@ -1,0 +1,128 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    background: #fbdc00;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;;
+}
+.footer-title{
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+
+.footer-title-below{
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    line-height: 21px;
+}
+.footer-paragraph{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.footer-body{
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 21px;;
+}
+
+.footer-body-head{
+    margin-bottom: 1em;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.footer-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 0;
+    background-color: #ebbe00;
+}
+
+.footer-1-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-1-body{
+    width: fit-content;
+    line-height: 2rem;
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+.footer-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 30px;
+    background-color: #ebbe00;
+}
+
+.footer-2-left{
+    display: flex;
+    align-items: center;
+}
+
+.footer-2-left-1{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.footer-2-left-2{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-left:40px;
+    line-height: 18px;
+}
+
+.footer-2-right{
+    display:flex;
+    align-items: center;
+}
+
+.footer-2-right-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-2-right-0{
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 6px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ee3425;
+    text-decoration: underline;
+}
+
+.footer-2-right-2{
+    padding: 8px 30px;
+}

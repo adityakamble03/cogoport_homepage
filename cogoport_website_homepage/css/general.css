@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-width: fit-content
+}
+
+.body-space{
+    height: 100px;
+}
+
+
+@media screen and (max-height: 600px) {
+    .main-body{
+        min-height: 600px;
+    }
+}
